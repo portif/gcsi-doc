@@ -1,0 +1,6 @@
+network:
+    ethernets:
+        enp0s3:
+            addresses: []
+            dhcp4: false
+

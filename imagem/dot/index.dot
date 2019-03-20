@@ -1,0 +1,22 @@
+digraph index {
+   index [label="index.rst"];
+   tcpip [label="tcpip.rst"];
+   inter_intra_net [label="inter-intra-net.rst"];
+   servicos [label="servicos.rst"];
+   appserver [label="appserver.rst"];
+   bd [label="bd.rst"];
+   ftp [label="ftp.rst"];
+   email [label="email.rst"];
+   dns [label="dns.rst"];
+   proxy [label="proxy.rst"];
+
+   index -> tcpip;
+   index -> inter_intra_net;
+   index -> servicos;
+   index -> appserver;
+   index -> bd;
+   index -> ftp;
+   index -> email;
+   index -> dns;
+   index -> proxy;
+}
